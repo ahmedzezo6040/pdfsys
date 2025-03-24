@@ -1,7 +1,7 @@
 <?php
 session_start();
 
-function isLoggedIn()
+function isLoggedI()
 {
     return isset($_SESSION['user_id']);
 }
